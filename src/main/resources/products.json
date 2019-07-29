@@ -1,0 +1,42 @@
+{
+  "products": [{
+    "productName": "SteelSeries Rival 500 Wired Mechanical Gaming Mouse",
+    "productId": "1001",
+    "productPrice": "7820",
+    "imageName":"steel-series-mouse.png",
+    "addedToCart":false,
+    "quantity":0
+  },
+    {
+      "productName": "SteelSeries Apex 100 Wired USB Gaming Keyboard",
+      "productId": "1002",
+      "productPrice": "15977",
+      "imageName":"steelseries-keyboard.jpeg",
+      "addedToCart":false,
+      "quantity":0
+    },
+    {
+      "productName": "Apple MacBook Pro Core i7 5th Gen - (16 GB/256 GB SSD/OS X El Capitan) MJLQ2HN/A",
+      "productId": "1003",
+      "productPrice": "144499",
+      "imageName":"mac-book-pro.jpeg",
+      "addedToCart":false,
+      "quantity":0
+    },
+    {
+      "productName": "F Gear Luxur 25 l Backpack  (Brown)",
+      "productId": "1004",
+      "productPrice": "1144",
+      "imageName":"bag-pack.jpeg",
+      "addedToCart":false,
+      "quantity":0
+    },
+    {
+      "productName": "Fossil FTW4003 Smart Watch Smartwatch",
+      "productId": "1005",
+      "productPrice": "15999",
+      "imageName":"fossil-original-watch.jpeg",
+      "addedToCart":false,
+      "quantity":0
+    }]
+}
