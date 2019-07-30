@@ -6,6 +6,9 @@ public class UserAccount {
         private String email;
         private long contact;
 
+    public UserAccount() {
+    }
+
     public UserAccount(String name, String email, long contact) {
         this.name = name;
         this.email = email;

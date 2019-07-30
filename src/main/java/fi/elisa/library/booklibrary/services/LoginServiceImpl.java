@@ -10,14 +10,13 @@ import org.springframework.transaction.annotation.Transactional;
 
 
 import java.util.Optional;
-@Component
 @Service
-@Transactional
+
 public class LoginServiceImpl implements LoginService{
 
     @Autowired
     LoginRepository loginRepository;
-
+    @Transactional
     @Override
     public Optional<UserAccount> validateLogin(String userName, String password) {
         Optional<User> user =  loginRepository.findByUserNameAndPassword(userName, password);

@@ -1,6 +1,7 @@
 package fi.elisa.library.booklibrary.controller;
 
 
+import fi.elisa.library.booklibrary.filter.SessionUtils;
 import fi.elisa.library.booklibrary.model.UserData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,8 +25,7 @@ public class LogoutController {
     public @ResponseBody
     ResponseEntity<UserData> userLogout(HttpServletRequest request) {
         HttpSession session = request.getSession(false);
-       // String userName = SessionUtils.optionallyGetUser(request).get().email;
-        String userName = "Ranjit";
+        String userName = SessionUtils.optionallyGetUser(request).get().email;
         session.invalidate();
         log.info("User [" + userName + "] logged out successfully");
         return new ResponseEntity<>(HttpStatus.OK);
