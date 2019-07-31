@@ -1,4 +1,4 @@
-package fi.elisa.library.booklibrary.model;
+package fi.elisa.library.model;
 
 public class UserAccount {
 

@@ -1,4 +1,4 @@
-package fi.elisa.library.booklibrary.config;
+package fi.elisa.library.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;

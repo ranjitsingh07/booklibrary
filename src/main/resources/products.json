@@ -1,41 +1,41 @@
 {
   "products": [{
-    "productName": "SteelSeries Rival 500 Wired Mechanical Gaming Mouse",
+    "productName": "Java 8 programming Black book",
     "productId": "1001",
-    "productPrice": "7820",
-    "imageName":"steel-series-mouse.png",
+    "productPrice": "450",
+    "imageName":"java.jpeg",
     "addedToCart":false,
     "quantity":0
   },
     {
-      "productName": "SteelSeries Apex 100 Wired USB Gaming Keyboard",
+      "productName": "The Complete reference java book",
       "productId": "1002",
-      "productPrice": "15977",
-      "imageName":"steelseries-keyboard.jpeg",
+      "productPrice": "535",
+      "imageName":"complete-reference.jpeg",
       "addedToCart":false,
       "quantity":0
     },
     {
-      "productName": "Apple MacBook Pro Core i7 5th Gen - (16 GB/256 GB SSD/OS X El Capitan) MJLQ2HN/A",
+      "productName": "Core Java programming",
       "productId": "1003",
-      "productPrice": "144499",
-      "imageName":"mac-book-pro.jpeg",
+      "productPrice": "344",
+      "imageName":"java-programming.jpeg",
       "addedToCart":false,
       "quantity":0
     },
     {
-      "productName": "F Gear Luxur 25 l Backpack  (Brown)",
+      "productName": "Note Book",
       "productId": "1004",
-      "productPrice": "1144",
-      "imageName":"bag-pack.jpeg",
+      "productPrice": "114",
+      "imageName":"note-book.jpeg",
       "addedToCart":false,
       "quantity":0
     },
     {
-      "productName": "Fossil FTW4003 Smart Watch Smartwatch",
+      "productName": "Java Learning",
       "productId": "1005",
-      "productPrice": "15999",
-      "imageName":"fossil-original-watch.jpeg",
+      "productPrice": "259",
+      "imageName":"core-java.jpeg",
       "addedToCart":false,
       "quantity":0
     }]

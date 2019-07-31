@@ -1,7 +1,7 @@
-package fi.elisa.library.booklibrary.config;
+package fi.elisa.library.config;
 
-import fi.elisa.library.booklibrary.entity.User;
-import fi.elisa.library.booklibrary.repository.LoginRepository;
+import fi.elisa.library.entity.User;
+import fi.elisa.library.repository.LoginRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

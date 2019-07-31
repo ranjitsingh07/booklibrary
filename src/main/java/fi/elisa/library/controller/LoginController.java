@@ -1,10 +1,10 @@
-package fi.elisa.library.booklibrary.controller;
+package fi.elisa.library.controller;
 
-import fi.elisa.library.booklibrary.filter.SessionUtils;
-import fi.elisa.library.booklibrary.model.LoginData;
-import fi.elisa.library.booklibrary.model.UserAccount;
-import fi.elisa.library.booklibrary.model.UserData;
-import fi.elisa.library.booklibrary.services.LoginService;
+import fi.elisa.library.filter.SessionUtils;
+import fi.elisa.library.model.LoginData;
+import fi.elisa.library.model.UserAccount;
+import fi.elisa.library.model.UserData;
+import fi.elisa.library.services.LoginService;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

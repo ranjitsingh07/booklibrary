@@ -1,6 +1,6 @@
-package fi.elisa.library.booklibrary.repository;
+package fi.elisa.library.repository;
 
-import fi.elisa.library.booklibrary.entity.User;
+import fi.elisa.library.entity.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

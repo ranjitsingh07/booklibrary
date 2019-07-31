@@ -1,6 +1,6 @@
-package fi.elisa.library.booklibrary.config;
+package fi.elisa.library.config;
 
-import fi.elisa.library.booklibrary.filter.SessionFilter;
+import fi.elisa.library.filter.SessionFilter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;

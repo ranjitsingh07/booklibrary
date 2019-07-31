@@ -1,11 +1,11 @@
-package fi.elisa.library.booklibrary;
+package fi.elisa.library;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
-import org.springframework.context.annotation.ComponentScan;
-@EntityScan("fi.elisa.library.booklibrary.entity")
+
+@EntityScan("fi.elisa.library.entity")
 @SpringBootApplication
 public class BookLibraryApplication extends SpringBootServletInitializer {
 

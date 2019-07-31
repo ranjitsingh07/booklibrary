@@ -1,10 +1,9 @@
-package fi.elisa.library.booklibrary.services;
+package fi.elisa.library.services;
 
-import fi.elisa.library.booklibrary.entity.User;
-import fi.elisa.library.booklibrary.model.UserAccount;
-import fi.elisa.library.booklibrary.repository.LoginRepository;
+import fi.elisa.library.entity.User;
+import fi.elisa.library.model.UserAccount;
+import fi.elisa.library.repository.LoginRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

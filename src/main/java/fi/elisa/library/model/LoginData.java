@@ -1,4 +1,4 @@
-package fi.elisa.library.booklibrary.model;
+package fi.elisa.library.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

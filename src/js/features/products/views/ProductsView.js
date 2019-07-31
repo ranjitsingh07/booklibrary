@@ -46,11 +46,6 @@ class ProductsView extends React.Component{
                                   onClick = {() => ProductsAction.addProductToCart(product)}>
                               Add to Cart
                             </button>
-                            &nbsp; &nbsp;
-                            <button  className="btn btn-danger"
-                                  onClick = {() => ProductsAction.removeProductFromCart(product)}>
-                              Remove from Cart
-                            </button>
                           </div>
                         </div>
                       </div>

@@ -1,6 +1,6 @@
-package fi.elisa.library.booklibrary.filter;
+package fi.elisa.library.filter;
 
-import fi.elisa.library.booklibrary.model.UserData;
+import fi.elisa.library.model.UserData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

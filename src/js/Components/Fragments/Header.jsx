@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import headerLogo from '../../Assets/Images/Shopping_cart.png'
+import headerLogo from '../../Assets/Images/booklibrary.png'
 import observerWithDisplayName from "../../utils/observerWithDisplayName"
 import UserDetailsStore from "../../features/login/state/UserDetailsStore"
 import ProductsStore from "../../features/products/state/ProductsStores"
@@ -12,7 +12,7 @@ const Header = observerWithDisplayName(() =>  {
         <Link to="/">
           <span className="navbar-brand header-logo">
             <img id="cartHeadImage" alt="Cart" src={headerLogo}/>
-            <span className="LogoText"> {UserDetailsStore.authToBeChecked ? "" : (UserDetailsStore.isAuthenticated ? "Welcome to Shopping-Cart": "Shopping-Cart")} </span>
+            <span className="LogoText"> {UserDetailsStore.authToBeChecked ? "" : (UserDetailsStore.isAuthenticated ? "Welcome to Book Library": "Book-Library")} </span>
           </span>
         </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

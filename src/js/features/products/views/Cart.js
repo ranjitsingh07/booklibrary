@@ -48,10 +48,16 @@ class Cart extends React.Component {
                                     </h5>
                                     <p className="card-text"><strong>Quantity : {product.quantity}</strong></p>
                                     <p className="card-text float-right"><strong>Price : ₹{product.quantity*product.productPrice}</strong></p>
+
                                   </div>
                               </li>
                           )
                         }
+                      &nbsp; &nbsp;
+                          <button  className="btn btn-danger"
+                                   onClick = {() => ProductsAction.removeProductFromCart(product)}>
+                              Remove from Library
+                          </button>
                         return(
                             <div></div>
                         )

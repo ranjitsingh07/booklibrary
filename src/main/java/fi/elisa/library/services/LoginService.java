@@ -1,6 +1,6 @@
-package fi.elisa.library.booklibrary.services;
+package fi.elisa.library.services;
 
-import fi.elisa.library.booklibrary.model.UserAccount;
+import fi.elisa.library.model.UserAccount;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

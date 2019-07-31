@@ -1,4 +1,4 @@
-package fi.elisa.library.booklibrary;
+package fi.elisa.library;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

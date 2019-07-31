@@ -1,4 +1,4 @@
-package fi.elisa.library.booklibrary.entity;
+package fi.elisa.library.entity;
 
 import javax.persistence.*;
 
